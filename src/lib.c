@@ -12,7 +12,10 @@
 char *get_animal_type_name(enum animal_type type)
 {
 	char *result;
-	switch (type) {
+	switch (type) { 
+        case PEOPLE:
+                result = "Людина";
+                break;
 	case CAT:
 		result = "Кіт";
 		break;
